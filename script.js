@@ -6,3 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
         scrollHorizontally: true
     });
 });
+
+
+
+new fullpage('#fullpage', {
+    anchors:['firstPage', 'fall', 'winter', 'spring', 'summer']
+});
