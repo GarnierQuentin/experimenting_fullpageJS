@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -22,4 +23,21 @@ body{
 .navigator li :hover{
     transform: scale(1.1);
     transition: all 0.1s linear;
+}
+
+
+#homePage{
+    background-image: url(assets/home_background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.home_context{
+    background-color: rgba(125, 125, 125, 0.8);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
